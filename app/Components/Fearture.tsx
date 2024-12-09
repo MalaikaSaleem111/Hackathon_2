@@ -8,16 +8,16 @@ import { Sprout } from 'lucide-react'
 
 const Feature = () => {
     return (
-        <div className="w-full h-auto py-8">
-          <div className="flex justify-center pb-8">
-            <h3 className="text-center text-2xl sm:text-3xl md:text-4xl font-normal text-[#2A254B]">
+        <div className="w-full md:h-[323px] mt-12 my-8 mx:10  md:px-8">
+          <div className="flex justify-center pb-8  ">
+            <h3 className="text-center text-3xl md:text-4xl font-normal text-[#2A254B]">
               What makes our brand different
             </h3>
           </div>
     
-          <div className="flex flex-col sm:flex-row justify-between items-center space-y-8 sm:space-y-0 sm:space-x-8">
+          <div className="w-full flex flex-col md:flex-row justify-center gap-10 items-center space-y-8 sm:space-y-0 sm:space-x-8">
             {/* First Feature */}
-            <div className="flex flex-col items-center w-full sm:w-[366px] space-y-4">
+            <div className="flex flex-col items-center bg-gray-100 w-full h-48 pt-6 sm:w-[366px] space-y-4">
               <div><Truck /></div>
               <h4 className="text-xl font-normal text-[#2A254B] text-center">Next day as standard</h4>
               <p className="text-base font-normal text-[#2A254B] text-center px-4 sm:px-0">
@@ -26,7 +26,7 @@ const Feature = () => {
             </div>
     
             {/* Second Feature */}
-            <div className="flex flex-col items-center w-full sm:w-[366px] space-y-4">
+            <div className="flex flex-col items-center bg-gray-100 w-full h-48 pt-6 sm:w-[366px] space-y-4">
               <div><CircleCheck /></div>
               <h4 className="text-xl font-normal text-[#2A254B] text-center">Made by true artisans</h4>
               <p className="text-base font-normal text-[#2A254B] text-center px-4 sm:px-0">
@@ -35,7 +35,7 @@ const Feature = () => {
             </div>
     
             {/* Third Feature */}
-            <div className="flex flex-col items-center w-full sm:w-[366px] space-y-4">
+            <div className="flex flex-col items-center bg-gray-100 w-full h-48 pt-6 sm:w-[366px] space-y-4">
               <div><CreditCard /></div>
               <h4 className="text-xl font-normal text-[#2A254B] text-center">Unbeatable prices</h4>
               <p className="text-base font-normal text-[#2A254B] text-center px-4 sm:px-0">
@@ -44,7 +44,7 @@ const Feature = () => {
             </div>
     
             {/* Fourth Feature */}
-            <div className="flex flex-col items-center w-full sm:w-[366px] space-y-4">
+            <div className="flex flex-col items-center bg-gray-100 w-full h-48 pt-6 sm:w-[366px] space-y-4">
               <div><Sprout /></div>
               <h4 className="text-xl font-normal text-[#2A254B] text-center">Recycled packaging</h4>
               <p className="text-base font-normal text-[#2A254B] text-center px-4 sm:px-0">

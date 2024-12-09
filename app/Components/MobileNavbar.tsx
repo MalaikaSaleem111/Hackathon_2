@@ -15,7 +15,7 @@ import Link from "next/link";
     return (
       <div>
         <Sheet>
-  <SheetTrigger><IoMenu /></SheetTrigger>
+  <SheetTrigger><IoMenu size={24}/></SheetTrigger>
   <SheetContent side={"right"}>
     <SheetHeader>
       <SheetTitle></SheetTitle>

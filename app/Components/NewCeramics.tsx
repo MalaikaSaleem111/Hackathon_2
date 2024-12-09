@@ -15,12 +15,12 @@ interface NewCeramicsProps {
 
 export default function NewCeramics({ products }: NewCeramicsProps) {
   return (
-    <section className="wrapper my-8 px-4 md:px-8">
+    <section className="my-8 mx:10 lg:mx-20 md:px-8 ">
       <h2 className="text-2xl font-bold mb-4">New Ceramics</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="flex justify-between flex-cols-1 sm:flex-cols-2 md:flex-cols-3 lg:flex-cols-4 gap-4 mt-8">
         {products.map((product, index) => (
           <Link key={index} href="./details">
-            <div className="w-full h-[375px] p-4 flex flex-col items-center bg-white shadow-md rounded-lg">
+            <div className="w-full h-auto p-4 flex flex-col items-center bg-white rounded-lg">
               <Image
                 src={product.image}
                 alt={product.name}
@@ -34,7 +34,7 @@ export default function NewCeramics({ products }: NewCeramicsProps) {
           </Link>
         ))}
       </div>
-      <div className="flex justify-center h-14 mt-14">
+      <div className="flex justify-center h-14 mt-28">
         <Link href="./productListing">
           <button className="px-6 py-2 bg-[#F9F9F9] rounded font-normal text-[#2A254B]">
             View Collection

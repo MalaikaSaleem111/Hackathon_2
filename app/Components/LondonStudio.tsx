@@ -17,8 +17,8 @@ const LondonStudio = () => {
           <br />
           Handmade, and lovingly crafted furniture and homeware is what we live, breathe, and design so our Chelsea boutique became the hotbed for the London interior design community.
         </p>
-        <div className="w-[150px] h-14 px-8 bg-[#F9F9F9]">
-          <button className="w-[96px] h-8 text-base font-normal text-[#2A254B]">
+        <div className="w-[150px] h-14 px-8  bg-[#F9F9F9]">
+          <button className="w-[96px] h-8 mt-3 text-base font-normal text-[#2A254B]">
             Get in touch
           </button>
         </div>
