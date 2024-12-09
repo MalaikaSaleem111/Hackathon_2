@@ -9,7 +9,9 @@ const Navbar = () => {
         <div className='flex justify-between items-center w-full h-[66] pt-5 px-7'>
           
             <h1 className='w-[65px] h-[30px] text-2xl font-normal'>Avion</h1>
+
             <div className='flex gap-6'>
+              <Link href="/"><h3>Home</h3></Link>
               <Link href="./about"><h3>About us</h3></Link>
               <h3>Contact us</h3>
   

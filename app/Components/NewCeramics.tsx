@@ -36,7 +36,7 @@ export default function NewCeramics({ products }: NewCeramicsProps) {
       </div>
       <div className="flex justify-center h-14 mt-28">
         <Link href="./productListing">
-          <button className="px-6 py-2 bg-[#F9F9F9] rounded font-normal text-[#2A254B]">
+          <button className="px-6 py-2 bg-[#F9F9F9]  hover:bg-slate-300  rounded font-normal text-[#2A254B]">
             View Collection
           </button>
         </Link>

@@ -10,9 +10,9 @@ const Hero = () => {
             <div>
                 <h2 className='w-full pb-10 lg:w-[513px] h-[90px] md:text-3xl md:text font-normal text-4xl pt-[60px]'>The furniture brand for the future, with timeless designs</h2>
 
-                <Link href="./productListing"> <div className='w-[170px] h-14 flex justify-center md:justify-start bg-gray-500 mt-[132px] py-4 px-5 '>
+                <Link href="./productListing"> <div className='w-[170px] h-14 flex justify-center md:justify-start bg-gray-500 mt-[132px] hover:bg-slate-700 py-4 px-5 '>
                  
-                 <button className='w-[136px] h-6   text-base font-normal Satoshi ]'>View Collections</button>
+                 <button className='w-[136px] h-6  text-base font-normal  ]'>View Collections</button>
                  </div></Link>
                 
 

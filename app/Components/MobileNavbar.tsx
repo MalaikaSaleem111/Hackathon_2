@@ -21,6 +21,7 @@ import Link from "next/link";
       <SheetTitle></SheetTitle>
       <SheetDescription>
         <ul className="text-white">
+            <Link href="/"><li >Home</li></Link>
             <Link href="./cart"><li >Cart</li></Link>
             <Link href="./about"><li>About</li></Link>
             <Link href="./productListing"><li>All products</li></Link>
