@@ -17,10 +17,10 @@ export default function NewCeramics({ products }: NewCeramicsProps) {
   return (
     <section className="my-8 mx:10 lg:mx-20 md:px-8 ">
       <h2 className="text-2xl font-bold mb-4">New Ceramics</h2>
-      <div className="flex justify-between flex-cols-1 sm:flex-cols-2 md:flex-cols-3 lg:flex-cols-4 gap-4 mt-8">
+      <div className="flex flex-col justify-between md:flex-cols-3 lg:flex-row gap-6">
         {products.map((product, index) => (
           <Link key={index} href="./details">
-            <div className="w-full h-auto p-4 flex flex-col items-center bg-white rounded-lg">
+            <div className="w-full h-auto p-4 flex flex-col items-center bg-white  rounded-lg">
               <Image
                 src={product.image}
                 alt={product.name}

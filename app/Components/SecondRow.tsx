@@ -35,12 +35,12 @@ const secondRowProducts = [
 
 const SecondRow = () => {
   return (
-    <div className="wrapper my-8 px-4 sm:px-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className=" my-8 px-4 sm:px-8">
+      <div className="flex flex-col justify-between  lg:flex-row gap-6">
         {secondRowProducts.map((product) => (
           <div
             key={product.id}
-            className="w-full h-auto p-4 flex flex-col items-center bg-white shadow-md rounded-lg"
+            className="w-full h-auto p-4 flex flex-col  items-center bg-white  rounded-lg"
           >
             <Image
               src={product.image}
